@@ -10,7 +10,7 @@
                                        d8'                               88                      
                                       d8'                                88 
 
-A homebrewed alternative to Perchance by TheFunkyFurry and electrikeelz
+A homebrewed alternative to Perchance by TheFunkyFurry and electrikeelz<br>
 Add my discord! : thefunkyfurry
 
 
