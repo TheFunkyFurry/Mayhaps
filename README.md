@@ -1,9 +1,20 @@
 
+    88b           d88                           88                                               
+    888b         d888                           88                                               
+    88`8b       d8'88                           88                                               
+    88 `8b     d8' 88  ,adPPYYba,  8b       d8  88,dPPYba,   ,adPPYYba,  8b,dPPYba,   ,adPPYba,  
+    88  `8b   d8'  88  ""     `Y8  `8b     d8'  88P'    "8a  ""     `Y8  88P'    "8a  I8[    ""  
+    88   `8b d8'   88  ,adPPPPP88   `8b   d8'   88       88  ,adPPPPP88  88       d8   `"Y8ba,   
+    88    `888'    88  88,    ,88    `8b,d8'    88       88  88,    ,88  88b,   ,a8"  aa    ]8I  
+    88     `8'     88  `"8bbdP"Y8      Y88'     88       88  `"8bbdP"Y8  88`YbbdP"'   `"YbbdP"'  
+                                       d8'                               88                      
+                                      d8'                                88 
+
 A homebrewed alternative to Perchance by TheFunkyFurry and electrikeelz
 Add my discord! : thefunkyfurry
 
 
-I N S T R U C T I O N S
+# I N S T R U C T I O N S
 
 To generate a cat:
 - Run Mayhaps.exe
@@ -25,7 +36,7 @@ To change save location:
 - Select new save location
 
 
-V E R S I O N  H I S T O R Y
+# V E R S I O N  H I S T O R Y
 
 19/01/2024 - V0.1
 - Initial pre-alpha release
