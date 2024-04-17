@@ -83,11 +83,9 @@ To change save location:
 - Fixed customisation + randomisation interaction logic
 
 --/05/2024 - V1.0
-- Added backgrounds
 - Made Mayhaps automatically try and find the assets folder
-	- Will still ask you to select it manually if it isn't where the program expects it to be
 - Made manually selecting images change the cat shown without having to regenerate
 - Cleaned up some backend code
-- Removed need to clear registry (kept the functionality just in case)
+- Removed need to clear registry when changing versions (kept the functionality just in case)
 - Shuffled around the UI
 - Added an icon and menu screen
