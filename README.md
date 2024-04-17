@@ -1,15 +1,4 @@
 
-88b           d88                           88                                               
-888b         d888                           88                                               
-88`8b       d8'88                           88                                               
-88 `8b     d8' 88  ,adPPYYba,  8b       d8  88,dPPYba,   ,adPPYYba,  8b,dPPYba,   ,adPPYba,  
-88  `8b   d8'  88  ""     `Y8  `8b     d8'  88P'    "8a  ""     `Y8  88P'    "8a  I8[    ""  
-88   `8b d8'   88  ,adPPPPP88   `8b   d8'   88       88  ,adPPPPP88  88       d8   `"Y8ba,   
-88    `888'    88  88,    ,88    `8b,d8'    88       88  88,    ,88  88b,   ,a8"  aa    ]8I  
-88     `8'     88  `"8bbdP"Y8      Y88'     88       88  `"8bbdP"Y8  88`YbbdP"'   `"YbbdP"'  
-                                   d8'                               88                      
-                                  d8'                                88                      
-
 A homebrewed alternative to Perchance by TheFunkyFurry and Kelszey
 Add my discord! : thefunkyfurry
 Source code available on request via discord
