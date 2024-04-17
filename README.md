@@ -14,7 +14,7 @@ A homebrewed alternative to Perchance by TheFunkyFurry and electrikeelz
 Add my discord! : thefunkyfurry
 
 
-# I N S T R U C T I O N S
+# INSTRUCTIONS
 
 To generate a cat:
 - Run Mayhaps.exe
@@ -36,7 +36,7 @@ To change save location:
 - Select new save location
 
 
-# V E R S I O N  H I S T O R Y
+# VERSION HISTORY
 
 19/01/2024 - V0.1
 - Initial pre-alpha release
