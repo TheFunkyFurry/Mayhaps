@@ -24,16 +24,18 @@ To generate a cat:
 
 To save a generated cat:
 - Click save
+- If prompted, select a folder to save to
 
 To updating to a newer version / To Uninstall:
 - Close Mayhaps and delete the files
 If updating:
 - Download desired version from https://github.com/TheFunkyFurry/Mayhaps/releases
 
-To change save location:
+To change a folder location:
 - Open options window
-- Click browse next to the current save location
-- Select new save location
+- Click browse next to the folder you want to change
+- Select new folder location
+- If changing asset folder then click Reset after selecting a new folder
 
 
 # VERSION HISTORY
