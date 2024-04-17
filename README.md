@@ -1,7 +1,7 @@
 
-A homebrewed alternative to Perchance by TheFunkyFurry and Kelszey
+A homebrewed alternative to Perchance by TheFunkyFurry and electrikeelz
 Add my discord! : thefunkyfurry
-Source code available on request via discord
+
 ============================================================================================
 I N S T R U C T I O N S
 ============================================================================================
@@ -17,7 +17,7 @@ To save a generated cat:
 To updating to a newer version / To Uninstall:
 - Close Mayhaps and delete the files
 If updating:
-- Download desired version from https://drive.google.com/drive/folders/18DgL-zTihTJXSjMoxH3T_Wu_SEBn5Xam?usp=sharing
+- Download desired version from https://github.com/TheFunkyFurry/Mayhaps/releases
 
 To change save location:
 - Open options window
@@ -71,7 +71,7 @@ V E R S I O N  H I S T O R Y
 13/02/2024 - V0.2.2
 - Fixed customisation + randomisation interaction logic
 
---/03/2024 - V0.3
+--/05/2024 - V1.0
 - Added backgrounds
 - Made Mayhaps automatically try and find the assets folder
 	- Will still ask you to select it manually if it isn't where the program expects it to be
