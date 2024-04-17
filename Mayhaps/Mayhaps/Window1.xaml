@@ -1,0 +1,31 @@
+﻿<Window x:Class="Mayhaps.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mayhaps"
+        mc:Ignorable="d"
+        Title="Options" Height="323" Width="314" SizeToContent="WidthAndHeight" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="225*"/>
+            <ColumnDefinition Width="28*"/>
+            <ColumnDefinition Width="61*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas Margin="7,7,182,300" Width="Auto">
+            <Button x:Name="browsebutton" Width="55" Height="24" Canvas.Top="62.02" Content="Browse" HorizontalAlignment="Left" VerticalAlignment="Center" Click="browsebutton_Click"/>
+            <Button x:Name="mapbutton" Content="Reset" Height="22" Canvas.Top="89.07" Width="55" HorizontalAlignment="Center" VerticalAlignment="Top" ButtonBase.Click="Button_Click_1"/>
+            <TextBlock Height="20" Canvas.Left="32.5" TextWrapping="Wrap" Canvas.Top="37.02" Width="107" HorizontalAlignment="Left" VerticalAlignment="Center"><Run Language="en-gb" Text="Installation location"/><LineBreak/><Run Language="en-gb"/></TextBlock>
+        </Canvas>
+        <Button HorizontalAlignment="Left" Height="23" Margin="36,249,0,0" VerticalAlignment="Top" Width="52" Click="Button_Click" Content="Ok" RenderTransformOrigin="0.113,4.191"/>
+        <TextBox x:Name="pathtextbox" TextWrapping="Wrap" Width="Auto" Height="19" IsEnabled="False" Background="White" HorizontalAlignment="Left" VerticalAlignment="Top" TextChanged="pathtextbox_TextChanged" Margin="67,71,0,0" />
+        <Canvas Margin="6,122,192,185">
+            <TextBox x:Name="saveTextBox" Height="19" Canvas.Left="60" TextWrapping="Wrap" Canvas.Top="48.453" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top" IsEnabled="False"/>
+            <Button Content="Browse" Height="24" Canvas.Top="45.953" Width="55" HorizontalAlignment="Left" VerticalAlignment="Center" Click="Button_Click_2"/>
+            <Button Content="Clear Registry" Height="26" Canvas.Top="74.953" Width="89" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click_3"/>
+            <TextBlock Height="25" Canvas.Left="43" TextWrapping="Wrap" Canvas.Top="20.953" Width="110"><Run Language="en-gb" Text="Save location"/></TextBlock>
+        </Canvas>
+        <Button Content="Toggle Dark Theme" HorizontalAlignment="Left" Height="23" Margin="157,249,0,0" VerticalAlignment="Top" Width="117" Click="Button_Click_4" Grid.ColumnSpan="3" IsEnabled="False" Visibility="Hidden"/>
+        <Label x:Name="combLabel" Content="Label" HorizontalAlignment="Left" Height="30" Margin="10,277,0,0" VerticalAlignment="Top" Width="304" Grid.ColumnSpan="3"/>
+    </Grid>
+</Window>
