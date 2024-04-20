@@ -83,7 +83,7 @@ To change a folder location:
 13/02/2024 - V0.2.2
 - Fixed customisation + randomisation interaction logic
 
-20/04/2024 - V1.0
+20/04/2024 - V0.3
 - Made Mayhaps automatically try and find the assets folder
 - Made manually selecting images change the cat shown without having to regenerate
 - Cleaned up some backend code
