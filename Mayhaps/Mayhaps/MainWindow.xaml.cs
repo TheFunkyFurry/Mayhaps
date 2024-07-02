@@ -424,17 +424,19 @@ namespace Mayhaps
                 }
                 else
                 {
-                    if (Directory.Exists((string)Registry.GetValue("HKEY_CURRENT_USER\\SOFTWARE\\mayhapsRootDir", "dir", null)))
-                        MessageBox.Show("Please select the assets folder.");
-                    var dlg = new FolderPicker();
-                    installDir = Directory.GetCurrentDirectory();
-                    dlg.InputPath = installDir;
-                    if (dlg.ShowDialog() == true)
+                    if (!Directory.Exists((string)Registry.GetValue("HKEY_CURRENT_USER\\SOFTWARE\\mayhapsRootDir", "dir", null)))
                     {
-                        string imgRootDir = dlg.ResultPath;
-                        //MessageBox.Show(dlg.ResultPath);
-                        Registry.SetValue("HKEY_CURRENT_USER\\SOFTWARE\\mayhapsRootDir", "dir", imgRootDir);
-                        imgDirs.AddRange(mapTree((string)Registry.GetValue("HKEY_CURRENT_USER\\SOFTWARE\\mayhapsRootDir", "dir", Directory.GetCurrentDirectory)));
+                        MessageBox.Show("Please select the assets folder.");
+                        var dlg = new FolderPicker();
+                        installDir = Directory.GetCurrentDirectory();
+                        dlg.InputPath = installDir;
+                        if (dlg.ShowDialog() == true)
+                        {
+                            string imgRootDir = dlg.ResultPath;
+                            //MessageBox.Show(dlg.ResultPath);
+                            Registry.SetValue("HKEY_CURRENT_USER\\SOFTWARE\\mayhapsRootDir", "dir", imgRootDir);
+                            imgDirs.AddRange(mapTree((string)Registry.GetValue("HKEY_CURRENT_USER\\SOFTWARE\\mayhapsRootDir", "dir", Directory.GetCurrentDirectory)));
+                        }
                     }
                 }
             
@@ -786,6 +788,7 @@ namespace Mayhaps
                 else
                 {
                     if (!Directory.Exists((string)Registry.GetValue("HKEY_CURRENT_USER\\SOFTWARE\\mayhapsRootDir", "saveDir", null)))
+                    {
                         MessageBox.Show("Please select the saves folder.");
                         var dlg = new FolderPicker();
                         installDir = Directory.GetCurrentDirectory();
@@ -796,6 +799,7 @@ namespace Mayhaps
                             //MessageBox.Show(dlg.ResultPath);
                             Registry.SetValue("HKEY_CURRENT_USER\\SOFTWARE\\mayhapsRootDir", "saveDir", imgRootDir);
                         }
+                    }
                 }
                 var image = savePng((int)imageCanvas.Width, (int)imageCanvas.Height, imageCanvas);
                 SaveFileDialog saveFileDialog1 = new SaveFileDialog();
