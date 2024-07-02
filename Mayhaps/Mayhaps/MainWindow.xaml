@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Mayhaps"
         mc:Ignorable="d"
-        Title="Mayhaps v1.0" WindowStyle="ToolWindow" Height="500"
+        Title="Mayhaps v0.3.2" WindowStyle="ToolWindow" Height="500"
         ResizeMode="CanMinimize" SizeToContent="Width" Width="1026" WindowStartupLocation="CenterScreen" Icon="/mayhaps_icon_2.ico">
     <Grid x:Name="mainGrid" Margin="110,0,0,0">
         <Grid.RowDefinitions>

@@ -438,6 +438,10 @@ namespace Mayhaps
                             imgDirs.AddRange(mapTree((string)Registry.GetValue("HKEY_CURRENT_USER\\SOFTWARE\\mayhapsRootDir", "dir", Directory.GetCurrentDirectory)));
                         }
                     }
+                    else
+                    {
+                        imgDirs.AddRange(mapTree((string)Registry.GetValue("HKEY_CURRENT_USER\\SOFTWARE\\mayhapsRootDir", "dir", Directory.GetCurrentDirectory)));
+                    }
                 }
             
                 List<Folder> classList = new List<Folder>();
