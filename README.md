@@ -90,3 +90,6 @@ To change a folder location:
 - Removed need to clear registry when changing versions (kept the functionality just in case)
 - Shuffled around the UI
 - Added an icon and menu screen
+
+02/07/2024 - V0.3.1
+- Fixed Mayhaps always asking to manually select folders
