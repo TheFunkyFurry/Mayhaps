@@ -93,3 +93,7 @@ To change a folder location:
 
 02/07/2024 - V0.3.1
 - Fixed Mayhaps always asking to manually select folders
+
+02/07/2024 - V0.3.2
+- Fixed images not being loaded when the assets folder is auto detected
+- Fixed the window displaying the wrong version number (not quite at 1.0 yet!)
